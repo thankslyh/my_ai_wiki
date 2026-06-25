@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian workspace（本地视图状态，不需要同步）
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# 本地临时文件
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+.trash/
+
+# 密钥 / token
+*.key
+*.pem
+.env
+.env.*
+*secret*
+*token*
+*credentials*
