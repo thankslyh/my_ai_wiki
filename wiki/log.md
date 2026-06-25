@@ -19,6 +19,13 @@
 
 ---
 
+## 2026-06-25（追加：入库主指南指向的 12 篇文章）
+- [新增资料] raw/clips/ 新增 12 篇 claude-howto 文章原文（标签 clip）：10 个教程模块（01-slash-commands ~ 10-cli）+ catalog + learning-roadmap。
+- [来源摘要] wiki/sources/ 新增 12 篇来源摘要页，与上面 12 篇原文一一对应。
+- [更新页面] wiki/concepts/ 新建 10 个功能概念页：slash-commands、memory、skills、subagents、mcp、hooks、plugins、checkpoints、advanced-features、cli。
+- [更新页面] wiki/index.md —— 概念页与来源摘要页清单扩充到全量。
+- [说明] 多处保留「待核验」标注（如模型版本号 Opus/Sonnet/Haiku 4.6/4.5、部分 CLI 参数、MCP token 上限命令写法），均因原文存疑或时效性，未擅自当事实写死。
+
 ## 2026-06-25
 - [新增资料] raw/clips/claude-howto-用一个周末掌握-claude-code.md —— GitHub 开源指南《用一个周末掌握 Claude Code》中文 README，标签 clip。
 - [来源摘要] wiki/sources/claude-howto-用一个周末掌握-claude-code.md —— 由上面的 clip 生成。

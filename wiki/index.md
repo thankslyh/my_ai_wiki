@@ -38,8 +38,21 @@
 
 ## 概念页
 
+总览：
 - [[claude-code]] —— Claude Code 是什么 + 七大核心功能模块
 - [[claude-code-功能组合工作流]] —— 多功能组合成自动化流水线的典型场景
+
+七大核心功能 + 进阶模块：
+- [[claude-code-slash-commands]] —— 手动触发的快捷命令
+- [[claude-code-memory]] —— 跨会话持久记忆（CLAUDE.md）
+- [[claude-code-skills]] —— 自动触发的可复用能力
+- [[claude-code-subagents]] —— 隔离上下文的专门化助手
+- [[claude-code-mcp]] —— 接入外部工具/实时数据的协议
+- [[claude-code-hooks]] —— 事件驱动的自动化与校验
+- [[claude-code-plugins]] —— 打包后的完整功能集合
+- [[claude-code-checkpoints]] —— 会话快照与回退
+- [[claude-code-advanced-features]] —— 规划/思考/后台任务
+- [[claude-code-cli]] —— 命令、参数与选项
 
 ## 实体页
 
@@ -51,7 +64,15 @@
 
 ## 来源摘要页
 
-- [[claude-howto-用一个周末掌握-claude-code]] —— GitHub 开源指南《用一个周末掌握 Claude Code》中文版
+主指南：
+- [[claude-howto-用一个周末掌握-claude-code]] —— 总览《用一个周末掌握 Claude Code》
+
+10 个教程模块：
+- [[claude-howto-01-slash-commands]] · [[claude-howto-02-memory]] · [[claude-howto-03-skills]] · [[claude-howto-04-subagents]] · [[claude-howto-05-mcp]] · [[claude-howto-06-hooks]] · [[claude-howto-07-plugins]] · [[claude-howto-08-checkpoints]] · [[claude-howto-09-advanced-features]] · [[claude-howto-10-cli]]
+
+其它：
+- [[claude-howto-catalog]] —— 功能目录 CATALOG
+- [[claude-howto-learning-roadmap]] —— 学习路线图
 
 详见 [[wiki/sources/README]] 模板。
 
