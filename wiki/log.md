@@ -19,6 +19,9 @@
 
 ---
 
+## 2026-06-25（首次健康检查）
+- [健康检查] outputs/health/health-2026-06-25.md —— 首次体检。结论：整体健康，资料/摘要 1:1 全覆盖、无孤立页、无断链、无 clippings 残留。发现 2 个轻微问题（8 个 subagent 文件标签写作 `tags: clip` 非数组、模型版本号 4.6/4.5 已过期需标注来源时点）+ 1 个结构空缺（syntheses 综合页为空）。
+
 ## 2026-06-25（深挖第二层：指南内部指向的示例/模板）
 - [新增资料] raw/clips/ 新增 10 篇二级资料（标签 clip）：8 个 Subagent 示例定义（code-reviewer、clean-code-reviewer、test-engineer、documentation-writer、secure-reviewer、implementation-agent、debugger、data-scientist）+ planning-mode-examples + checkpoint-examples。
 - [说明] Subagent 定义文件原文自带 frontmatter（name/description/tools/model），为避免冲突，来源信息以顶部 HTML 注释保存，未叠加第二个 frontmatter。
