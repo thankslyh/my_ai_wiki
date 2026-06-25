@@ -19,6 +19,15 @@
 
 ---
 
+## 2026-06-25（深挖第二层：指南内部指向的示例/模板）
+- [新增资料] raw/clips/ 新增 10 篇二级资料（标签 clip）：8 个 Subagent 示例定义（code-reviewer、clean-code-reviewer、test-engineer、documentation-writer、secure-reviewer、implementation-agent、debugger、data-scientist）+ planning-mode-examples + checkpoint-examples。
+- [说明] Subagent 定义文件原文自带 frontmatter（name/description/tools/model），为避免冲突，来源信息以顶部 HTML 注释保存，未叠加第二个 frontmatter。
+- [来源摘要] wiki/sources/ 新增 10 篇来源摘要页，与上面 10 篇一一对应。
+- [更新页面] wiki/concepts/claude-code-subagents.md —— 新增「内置示例 subagent 清单」表格，链接 8 个示例。
+- [更新页面] wiki/concepts/claude-code-advanced-features.md / claude-code-checkpoints.md —— 各加一条实战示例链接。
+- [更新页面] wiki/index.md —— 来源摘要页区新增「二级资料」清单。
+- [说明] 仅入库主指南直接指向的二级链接；模块间互引（已入库）与 CLI/官方文档外链未重复抓取。
+
 ## 2026-06-25（追加：入库主指南指向的 12 篇文章）
 - [新增资料] raw/clips/ 新增 12 篇 claude-howto 文章原文（标签 clip）：10 个教程模块（01-slash-commands ~ 10-cli）+ catalog + learning-roadmap。
 - [来源摘要] wiki/sources/ 新增 12 篇来源摘要页，与上面 12 篇原文一一对应。

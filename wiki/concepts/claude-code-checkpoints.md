@@ -25,4 +25,5 @@ Checkpoint 是对话状态的快照，包含已交换的消息、已做的文件
 ## 相关
 
 - [[claude-code]] —— 所属工具
+- 实战示例：[[claude-howto-checkpoint-examples]] —— 检查点的真实使用示例
 - 来源摘要：[[claude-howto-08-checkpoints]]

@@ -74,6 +74,10 @@
 - [[claude-howto-catalog]] —— 功能目录 CATALOG
 - [[claude-howto-learning-roadmap]] —— 学习路线图
 
+二级资料（指南内部指向的示例 / 模板）：
+- 8 个 Subagent 示例定义：[[claude-howto-subagent-code-reviewer]] · [[claude-howto-subagent-clean-code-reviewer]] · [[claude-howto-subagent-test-engineer]] · [[claude-howto-subagent-documentation-writer]] · [[claude-howto-subagent-secure-reviewer]] · [[claude-howto-subagent-implementation-agent]] · [[claude-howto-subagent-debugger]] · [[claude-howto-subagent-data-scientist]]
+- 实战示例：[[claude-howto-planning-mode-examples]] · [[claude-howto-checkpoint-examples]]
+
 详见 [[wiki/sources/README]] 模板。
 
 ---

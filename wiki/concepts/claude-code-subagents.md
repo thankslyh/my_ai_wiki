@@ -21,8 +21,23 @@ Subagents 是专门处理某类任务的独立 AI 助手，拥有隔离的上下
 - 推荐用 `/agents` 命令管理；调用方式有自动委派、显式调用、`@agent-name` 提及、会话级固定使用等多种。
 - 进阶能力：可恢复的 agents（长任务接力）、后台 subagents（不阻塞主会话）、worktree 隔离（避免文件状态互相污染）、持久记忆（项目/用户/子目录级范围）。
 - Agent Teams 是实验性的多角色协作模式，与侧重单任务委派的 Subagents 区分；需通过设置开启，且功能可能变化。
-- 目录提供 8 个示例 subagent：Code Reviewer、Test Engineer、Documentation Writer、Secure Reviewer、Implementation Agent、Debugger、Data Scientist、Clean Code Reviewer。
+- 目录提供 8 个示例 subagent（见下方清单）。
 - 设计原则：单一职责、描述明确、工具权限最小化；system prompt 要具体、不冗长、只保留执行所需信息。
+
+## 内置示例 subagent 清单
+
+来源：[[claude-howto-04-subagents]]。每个示例的完整定义已存为来源摘要页：
+
+| 示例 | 工具权限 | 用途 |
+| --- | --- | --- |
+| [[claude-howto-subagent-code-reviewer]] | Read/Grep/Glob/Bash | 代码审查（安全→性能→质量→测试→设计） |
+| [[claude-howto-subagent-clean-code-reviewer]] | Read/Grep/Glob/Bash | Clean Code 原则违规审查 |
+| [[claude-howto-subagent-test-engineer]] | Read/Write/Bash/Grep | 编写测试，目标 80%+ 覆盖率 |
+| [[claude-howto-subagent-documentation-writer]] | Read/Write/Grep | API/指南/架构文档撰写 |
+| [[claude-howto-subagent-secure-reviewer]] | Read/Grep（只读） | 最小权限安全审计 |
+| [[claude-howto-subagent-implementation-agent]] | Read/Write/Edit/Bash/Grep/Glob | 端到端功能实现 |
+| [[claude-howto-subagent-debugger]] | Read/Edit/Bash/Grep/Glob | 根因分析与最小修复 |
+| [[claude-howto-subagent-data-scientist]] | Bash/Read/Write（model: sonnet） | SQL / BigQuery 数据分析 |
 
 ## 相关
 
