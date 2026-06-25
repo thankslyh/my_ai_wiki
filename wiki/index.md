@@ -34,6 +34,7 @@
 
 - **Claude Code** — Anthropic 的 AI 编程 CLI，及其功能组合工作流 → [[claude-code]]
   - 体系入口：[[claude-code-全景图]]（推荐先读，串起全部 12 个概念）
+- **AI Agent 原理** — 从 Tool 到多 Agent 并发控制的底层原理 → [[ai-agent-from-tools-to-concurrency]]
 
 ---
 
@@ -55,6 +56,14 @@
 - [[claude-code-advanced-features]] —— 规划/思考/后台任务
 - [[claude-code-cli]] —— 命令、参数与选项
 
+AI Agent 原理：
+- [[function-calling]] —— 工具调用底层原理（模型决策 + 外部执行）
+- [[ai-agent-loop]] —— 最小智能体循环与退出条件
+- [[llm-as-os]] —— LLM 即操作系统（架构同构、内核异质）
+- [[context-engineering]] —— 上下文工程（≈ OS 内存管理）
+- [[multi-agent-collaboration]] —— 多 Agent 协作拓扑与 IPC
+- [[agent-concurrency-control]] —— 共享黑板并发写控制
+
 ## 实体页
 
 - [[claude-howto-luongnv89]] —— 开源 Claude Code 学习指南项目（luongnv89）
@@ -67,6 +76,9 @@
 
 主指南：
 - [[claude-howto-用一个周末掌握-claude-code]] —— 总览《用一个周末掌握 Claude Code》
+
+AI Agent 原理：
+- [[ai-agent-from-tools-to-concurrency]] —— 从 Tool 到多 Agent 并发控制（对话沉淀笔记）
 
 10 个教程模块：
 - [[claude-howto-01-slash-commands]] · [[claude-howto-02-memory]] · [[claude-howto-03-skills]] · [[claude-howto-04-subagents]] · [[claude-howto-05-mcp]] · [[claude-howto-06-hooks]] · [[claude-howto-07-plugins]] · [[claude-howto-08-checkpoints]] · [[claude-howto-09-advanced-features]] · [[claude-howto-10-cli]]
