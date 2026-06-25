@@ -32,20 +32,18 @@
 
 ## 当前主题
 
-> 还没有收录主题。新增资料并整理后，在这里列出主题及对应入口页链接。
-
-_（示例格式）_
-- **主题名** — 一句话说明 → [[concept-or-synthesis-page]]
+- **Claude Code** — Anthropic 的 AI 编程 CLI，及其功能组合工作流 → [[claude-code]]
 
 ---
 
 ## 概念页
 
-> 暂无。
+- [[claude-code]] —— Claude Code 是什么 + 七大核心功能模块
+- [[claude-code-功能组合工作流]] —— 多功能组合成自动化流水线的典型场景
 
 ## 实体页
 
-> 暂无。
+- [[claude-howto-luongnv89]] —— 开源 Claude Code 学习指南项目（luongnv89）
 
 ## 综合页
 
@@ -53,7 +51,9 @@ _（示例格式）_
 
 ## 来源摘要页
 
-> 暂无。详见 [[wiki/sources/README]] 模板。
+- [[claude-howto-用一个周末掌握-claude-code]] —— GitHub 开源指南《用一个周末掌握 Claude Code》中文版
+
+详见 [[wiki/sources/README]] 模板。
 
 ---
 
