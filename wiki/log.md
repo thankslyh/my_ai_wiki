@@ -19,6 +19,9 @@
 
 ---
 
+## 2026-06-28（补归档原文）
+- [新增资料] raw/clips/ai-agent-from-tools-to-concurrency.md —— 将 AI Agent 原理笔记原文归档到 raw/（此前仅存在于 wiki/sources/），符合「原文进 raw、整理进 wiki」规则，标签 clip。
+
 ## 2026-06-25（新增资料：AI Agent 原理笔记）
 - [新增资料] wiki/sources/ai-agent-from-tools-to-concurrency.md —— 用户与 Claude 对话沉淀的 AI Agent 原理笔记（已是来源摘要页格式）。补全 source_url 为「待补充（对话沉淀，无外部 URL）」，修正 related_concepts 断链（[[mcp]] → [[claude-code-mcp]]）。
 - [更新页面] wiki/concepts/ 新建 6 个概念页：function-calling、ai-agent-loop、llm-as-os、context-engineering、multi-agent-collaboration、agent-concurrency-control。
