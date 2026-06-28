@@ -35,6 +35,7 @@
 - **Claude Code** — Anthropic 的 AI 编程 CLI，及其功能组合工作流 → [[claude-code]]
   - 体系入口：[[claude-code-全景图]]（推荐先读，串起全部 12 个概念）
 - **AI Agent 原理** — 从 Tool 到多 Agent 并发控制的底层原理 → [[ai-agent-from-tools-to-concurrency]]
+- **MySQL** — 常用语法速查 + 记忆法 → [[mysql-cheatsheet]]
 
 ---
 
@@ -63,6 +64,9 @@ AI Agent 原理：
 - [[context-engineering]] —— 上下文工程（≈ OS 内存管理）
 - [[multi-agent-collaboration]] —— 多 Agent 协作拓扑与 IPC
 - [[agent-concurrency-control]] —— 共享黑板并发写控制
+
+MySQL：
+- [[mysql-cheatsheet]] —— 常用语法速查（DDL/DML/查询/索引/事务）+ 纯对比表记忆法
 
 ## 实体页
 
