@@ -20,9 +20,10 @@
 ---
 
 ## 2026-06-28（新增主题：MySQL）
-- [更新页面] wiki/concepts/mysql-cheatsheet.md —— 新建 MySQL 常用语法单页速查（DDL/DML/查询/JOIN/子查询/CTE/索引/事务）+ 纯对比表记忆法（四类语句、书写vs执行顺序、WHERE vs HAVING、JOIN 留谁、易错点）。
-- [更新页面] wiki/index.md —— 新增 MySQL 主题与概念页入口。
-- [说明] 此为通用知识整理，无外部来源/无 raw 原文，页内已标注「建议对照 MySQL 官方文档」；版本相关语法（CTE/窗口函数 8.0+）已标注。
+- [更新页面] wiki/concepts/mysql-cheatsheet.md —— 新建 MySQL 常用语法单页速查（DDL/DML/查询/JOIN/子查询/CTE/索引/事务）+ 纯对比表记忆法（四类语句、书写vs执行顺序、WHERE vs HAVING、JOIN 留谁、易错点）。补充指向 mysql-performance 的相关链接。
+- [更新页面] wiki/concepts/mysql-performance.md —— 新建 MySQL 性能优化页（慢查询定位、EXPLAIN 详解、索引优化、SQL改写、深分页优化、表结构与配置）+ 记忆法（优化顺序、type保底线、索引取舍、失效八字诀）。
+- [更新页面] wiki/index.md —— 新增 MySQL 主题与两个概念页入口。
+- [说明] 均为通用知识整理，无外部来源/无 raw 原文，页内已标注「建议对照 MySQL 官方文档」；版本相关语法（CTE/窗口函数/EXPLAIN ANALYZE 8.0+）已标注。
 
 ## 2026-06-28（补归档原文）
 - [新增资料] raw/clips/ai-agent-from-tools-to-concurrency.md —— 将 AI Agent 原理笔记原文归档到 raw/（此前仅存在于 wiki/sources/），符合「原文进 raw、整理进 wiki」规则，标签 clip。

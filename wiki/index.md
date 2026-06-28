@@ -67,6 +67,7 @@ AI Agent 原理：
 
 MySQL：
 - [[mysql-cheatsheet]] —— 常用语法速查（DDL/DML/查询/索引/事务）+ 纯对比表记忆法
+- [[mysql-performance]] —— 性能优化（慢查询、EXPLAIN、索引/SQL/分页优化）+ 记忆法
 
 ## 实体页
 

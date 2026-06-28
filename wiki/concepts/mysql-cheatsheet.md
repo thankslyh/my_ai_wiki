@@ -203,4 +203,5 @@ COMMIT;        -- 提交；出错则 ROLLBACK 回滚
 
 ## 相关
 
+- [[mysql-performance]] —— MySQL 性能优化（慢查询、EXPLAIN、索引/SQL/分页优化）
 - 来源：通用知识整理（建议对照 [MySQL 官方文档](https://dev.mysql.com/doc/)）
